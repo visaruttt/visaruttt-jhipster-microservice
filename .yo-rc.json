@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.allianz.simplejhipster",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "microservice",
+    "baseName": "jhipsterChap1",
+    "packageName": "com.allianz.simplejhipster",
+    "packageFolder": "com/allianz/simplejhipster",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ODk1NzQ5YmE1ZjY1YWQzZDFmZTAzMmRmNzliNGY1MTgwNGZkZjM2OTVmODI5YzJiMjg5YTgwNGQ5NjczYjQ2YjAxYTM4MjcyOGQ2NjA5MDhhY2FhZGVhM2E2NGEzNjBjMmE3ZWNiOWU0NTBjNmQ1ZjU0OTI4OWU2Yzc0OGQ3NDA=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1596626015542,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
