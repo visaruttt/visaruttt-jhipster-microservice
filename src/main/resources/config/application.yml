@@ -67,7 +67,6 @@ management:
       base-path: /management
       exposure:
         include: ['configprops', 'env', 'health', 'info', 'jhimetrics', 'logfile', 'loggers', 'prometheus', 'threaddump']
-  endpoint:
     health:
       show-details: when_authorized
       roles: 'ROLE_ADMIN'

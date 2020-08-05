@@ -16,6 +16,10 @@
 eureka:
   client:
     enabled: false
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
   instance:
     appname: jhipsterChap1
     instanceId: jhipsterChap1:${spring.application.instance-id:${random.value}}
